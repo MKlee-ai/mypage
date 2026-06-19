@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" style="color-scheme: light only;">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.85);
+      background: #ffffff;
       backdrop-filter: blur(12px);
       border-radius: 28px;
       padding: 60px 50px;
@@ -109,49 +109,6 @@
       border-radius: 2px;
     }
 
-    /* 다크모드 대응 */
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #1a2f3f;
-      }
-
-      .card {
-        background: rgba(30, 50, 65, 0.95);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      }
-
-      .profile-img {
-        background-color: #2a4a60;
-        border-color: #3a6a88;
-      }
-
-      .profile-img svg {
-        color: #7ab8d4;
-      }
-
-      h1 {
-        color: #e8f4fc;
-      }
-
-      .bio {
-        color: #90bcd4;
-      }
-
-      .btn-email {
-        background-color: #1e3f55;
-        color: #b8ddf0;
-        border-color: #3a6a88;
-      }
-
-      .btn-blog {
-        background-color: #02a84c;
-        color: #ffffff;
-      }
-
-      .divider {
-        background: #3a6a88;
-      }
-    }
   </style>
 </head>
 <body>
